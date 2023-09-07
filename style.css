@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('./static/bg3.jpg')  ;
+}
+
+.navigation li {
+    color: white;
+    float: right;
+    list-style: none;
+    padding: 1px 17px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: rgb(230, 227, 227);
+    text-decoration: underline;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: -35px;
+    top: -10px;
+}
+
+.logo img {
+    filter: invert(100%);
+    color: white;
+    padding: 0px 20px;
+    width: 22%;
+    margin: 0px 57px;
+}
+
+.logo div {
+    line-height: 0px;
+    margin: 0px 42px;
+    color: white;
+    font-size: 34px;
+}
+
+/* .name{
+line-height: 0px;
+margin: 0px 42px;
+color: white;
+font-size: 34px;
+} */
+.btn {
+    position: absolute;
+    right: 72px;
+    top: 50px;
+    cursor: pointer;
+    border: 3px rgb(130, 82, 97) solid;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.btn:hover {
+    background-color: wheat;
+}
+
+.btn1 {
+    position: absolute;
+    right: 4px;
+    top: 50px;
+    cursor: pointer;
+    border: 3px rgb(130, 82, 97) solid;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.btn1:hover {
+    background-color: wheat;
+}
+
+.container {
+    display: inline-block;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    right: 301px;
+    top: 234px;
+}
+
+div input {
+    text-align: center;
+    display: block;
+    border: 2px solid rgb(177, 237, 240);
+    width: 256px;
+    padding: 4px 4px;
+    margin: 7px auto;
+    border-radius: 10px;
+}
+
+.btn2 {
+    display: block;
+    border: 3px rgb(130, 82, 97) solid;
+    border-radius: 10px;
+    width: 39%;
+    margin: 14px 16px;
+    float: right;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: wheat;
+}
